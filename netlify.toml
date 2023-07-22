@@ -1,0 +1,3 @@
+[build]
+command = "node server/app.js" # Ganti dengan path ke file app.js yang sesuai dengan direktori Anda
+publish = "server/public"      # Ganti dengan direktori tempat file public Anda berada

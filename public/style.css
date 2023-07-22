@@ -1,0 +1,79 @@
+/* style.css */
+
+body.matrix-rain {
+    background-color: #000;
+    background-image: url('https://images.pexels.com/photos/272789/pexels-photo-272789.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Courier New', monospace;
+    color: #0f0;
+}
+
+.container {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.form-control {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #0f0;
+    color: #0f0;
+    font-family: 'Courier New', monospace;
+}
+
+.form-control::placeholder {
+    color: #0f0;
+}
+
+.btn-primary {
+    background-color: #0f0;
+    border: 1px solid #0f0;
+    font-family: 'Courier New', monospace;
+}
+
+.btn-primary:hover {
+    background-color: #090;
+    border: 1px solid #090;
+}
+
+label,
+.text-light {
+    color: #0f0;
+}
+
+.hacker-icon {
+    height: 600px;
+    border-radius: 10%;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .hacker-icon {
+        max-width: 70px;
+    }
+}
+
+.col-md-6 mt-4 {
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
